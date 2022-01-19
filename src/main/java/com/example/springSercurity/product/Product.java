@@ -1,4 +1,4 @@
-package com.example.springSercurity.product.entity;
+package com.example.springSercurity.product;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
