@@ -6,8 +6,12 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-@Service
+@Service("productServiceImp")
 public class ProductServiceImp implements ProductService {
+
+    public ProductServiceImp() {
+        System.out.println("ProductServiceImp");
+    }
 
     public List<Product> products = new ArrayList<>(Arrays.asList(new Product(1, "HP", 2000),
             new Product(2, "Dell", 3000),
